@@ -1,0 +1,113 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('Bank-PO-.png');
+    background-size: cover;
+
+}
+
+.left{
+   
+    display: inline-block; 
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+.mid{
+  
+    /* condition of mid me karne ki list item ko */
+    display: block;
+ width: 40%;
+    margin: 5px auto;
+
+     
+}
+.right{
+     /* condition of right me karne ki sign up  item ko */
+    position: absolute;
+    right: 34px;
+    top: 20px;
+  
+    display: inline-block;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+
+}
+.navbar li a{
+    padding: 34px 23px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar li a:hover, .navbar li a :active{
+    text-decoration: underline;
+   color:  green;
+}
+.left img{
+    width: 70px;
+}
+.button{
+    color: green;
+    background-color: white;
+    padding: 4px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+
+   
+}
+.button:hover{
+    background-color: lightpink;
+    color: rgb(65, 65, 240);
+}
+.container{
+    border: 2px solid blacks;
+    margin: 150px 200px;
+    font-size: 50px;
+    display: inline-block;
+
+}
+.button i{
+    padding-right: 5px;
+}
+.container{
+    position: relative;
+    bottom: 80px;
+margin-left: 40px;
+
+}
+.container img{
+    position: absolute;
+    width: 113rem;
+    height: 34rem;
+    z-index: -1;
+}
+.container  .para{
+    margin: 40px;
+font-weight:  800;
+font-family: sans-serif;
+
+}
+.container .para .money{
+    color: rgb(0, 132, 255);
+}
+.container .inner .small{
+font-size: 20px;
+margin-left: 50px;   
+}
+.container .inner .signup button{
+color: white;
+background-color: darkgreen;
+padding: 12px;
+margin-left: 55px;
+transition: 0.5s;
+border-radius: 20px;
+cursor: pointer;
+border: none;
+}
+.container .inner .signup button:hover{
+transform: translateY(-5px);
+}

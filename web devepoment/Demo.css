@@ -1,0 +1,10 @@
+
+body{
+    /* background-image: url('gym.avif');
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-attachment: fixed;
+    background-position: top; */
+
+    background: fixed no-repeat right top url('gym.avif') ;
+}

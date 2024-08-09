@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .nav-bar{
+            overflow: hidden;
+            background-color: royalblue;
+
+        }
+        .nav-bar a{
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+        }
+        .nav-bar a:hover{
+            background-color: hotpink;
+        }   
+        @media  screen and (max-width: 600px) {
+            .nav-bar a{
+                float: none;
+                width: 100%;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <a href="#">Home</a>
+        <a href="#">Conatct</a>
+        <a href="#">About</a>
+        <a href="#">Email</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+/* h1,p{
+    color: red
+    ;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1.text{
+    color: greenyellow;
+}
+.demo{
+    background-color: yellow;
+}  */
+
+h1{
+    color: rgb(117, 76, 155);
+}
+.btn{
+    color: red;
+    background-color: aqua;
+}
+
+.main{
+    background-color: royalblue;
+}
+h1{
+    background-color: aqua;
+}
+.demo{
+    
+    height: 500px;
+    width: 100%;
+    background-image: url('gym.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

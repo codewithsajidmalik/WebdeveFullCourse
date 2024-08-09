@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css gradient</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: cursive;
+        }
+        .navbar{
+            height: 100px;
+            width: 100%;
+           /* background-image: linear-gradient(red,yellow); */
+           /* background-image: linear-gradirightent(to , red,yellow,green); */
+
+           background-image: radial-gradient(circle,red, yellow);
+        }
+        .box{
+            height: 200px;
+            width: 300px;
+            /* background-image: conic-gradient(red,yellow); */
+            background-color: blueviolet;
+            /* transform: rotate(50deg) */
+            margin-top: 300px;
+            margin-left: 300px;
+        }
+        h1{
+            line-height: 100px;
+            color: white;
+        }
+        .box:hover{
+            transform: skewX(20deg );
+            transition: 2s;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1>sajid malik fitness club</h1>
+
+    </div>
+    <div class="box">
+
+    </div>
+</body>
+</html>

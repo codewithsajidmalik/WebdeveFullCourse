@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>notice-board project</title>
+    <style>
+        .notice-board{
+            background-color: #eee;
+            height: 300px;
+            width: 450px;
+            overflow: hidden;
+            position: relative;
+            left: 300px;
+            top: 200px;
+            box-shadow: 5px 5px 10px royalblue;
+            padding: 5px;
+        }
+        .notice{
+            position: relative;
+            top: -200px;
+            animation-name: notice;
+            animation-duration: 15s;
+        }
+        @keyframes notice{
+            from{
+                top: 0px;
+            }
+            to{
+                top: -700px;
+            }
+        }
+    </style>
+</head>
+<body>
+   <div class="notice-board">
+    <div class="notice">
+        <h1>Admission  notice</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A ducimus architecto nemo, asperiores quia provident, praesentium est dolor fugiat perspiciatis modi vero aut, voluptatibus ipsa? Voluptatum nostrum autem delectus reiciendis natus dignissimos at debitis.</p>
+        <h1>cpp programming</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iusto cumque temporibus debitis quis facilis harum dolorum, minima id consequuntur ducimus esse eos ad!</p>
+        <h1>java programming</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore dolorem odio maiores aliquam corrupti ipsa, cumque, doloribus facere quasi dicta eos qui sit exercitationem explicabo, soluta provident aperiam. Modi ratione temporibus possimus minus fuga.</p>
+    </div>
+
+   </div> 
+</body>
+</html>

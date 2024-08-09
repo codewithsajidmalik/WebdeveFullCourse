@@ -1,0 +1,28 @@
+.navbar{
+    height: 70px;
+    width: 500px;
+    background-color: rgba(209, 209, 44,0.5);
+    color: red;
+    line-height: 70px;
+    padding: 10px;
+    position: fixed;
+}
+.container{
+    height: 800px;
+    width: 100%;
+    background-color: aqua;
+  
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+   
+
+}
+h1{ 
+  
+}
+button{
+    position: fixed;
+}
